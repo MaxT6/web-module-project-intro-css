@@ -50,3 +50,50 @@ table {
 html{
     font-size: 62.5%;
 }
+
+*{
+    
+}
+
+.container {
+    margin: 0 auto;
+    height: 100vh;
+    width: 80%;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid black;
+}
+
+.container header nav a{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    border: 1px solid rgb(2, 2, 2);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #FF764E;
+}
+
+
+#link2{
+    background-color: #5ED3EB;
+}
+
+#link3{
+    background-color: #FFCD69;
+}
+
+.yosemite{
+    font-size: 1.6rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.round{
+    width: 15%;
+    height: 15%;
+    justify-content: left;
+    border-radius: 50%;
+}
